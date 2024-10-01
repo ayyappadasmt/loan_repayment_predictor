@@ -11,7 +11,7 @@ st.subheader("created by AYYAPPADAS M.T.")
 
 # Load and prepare the dataset
 # Assuming you have a dataset saved as 'loan_data.csv'
-df = pd.read_csv('E:\loan repayment predictor\Decision_Tree_ Dataset.csv')  # Replace with your actual dataset path
+df = pd.read_csv('Decision_Tree_ Dataset.csv')  # Replace with your actual dataset path
 X = df.values[:, 0:4]
 Y = df.values[:, 4]
 
