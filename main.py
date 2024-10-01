@@ -27,7 +27,7 @@ st.subheader('Enter Loan Information')
 initial_payment = st.number_input('Initial Payment', min_value=0, value=1000)
 last_payment = st.number_input('Last Payment', min_value=0, value=1000)
 credit_score = st.number_input('Credit Score', min_value=0, value=600)
-house_number = st.number_input('House Number', min_value=0, value=1)
+
 
 # Collect the user inputs in the form of a NumPy array (reshape to match the model's expected input)
 user_input = np.array([[initial_payment, last_payment, credit_score, house_number]])
